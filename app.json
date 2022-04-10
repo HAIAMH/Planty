@@ -1,0 +1,22 @@
+{
+    "name": "Mokkala Anveshana",
+    "description": "Telegram bot for identifying plant",
+    "author": "Harshith",
+    "keywords": [
+        "python",
+        "mokkala_anveshana",
+        "plants"
+    ],
+    "repository": "https://github.com/MutyalaHarshith/Mokkala-Anveshana",
+    "env":{
+        "bot_token":{
+            "description":"Telegram bot token",
+            "required":"True"
+        },
+        "api_key":{
+            "description":"Api key from plantnet.org",
+            "required":"True"
+        }
+    }
+
+}
