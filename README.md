@@ -3,6 +3,12 @@
 𝑷𝒍𝒆𝒂𝒔𝒆 𝑻𝒂𝒌𝒆 𝒂 𝑷𝒉𝒐𝒕𝒐 𝒂𝒏𝒅 𝒔𝒆𝒏𝒅 𝒕𝒐 𝑻𝒉𝒆 𝑩𝒐𝒕 𝒂𝒏𝒅 𝑪𝒍𝒊𝒄𝒌 𝑻𝒉𝒆 𝑩𝒆𝒍𝒐𝒘 𝑩𝒖𝒕𝒕𝒐𝒏𝒔 𝒂𝒏𝒅 𝒄𝒍𝒊𝒄𝒌 𝑰𝒅𝒆𝒏𝒕𝒊𝒇𝒚
 𝑷𝒍𝒆𝒂𝒔𝒆 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑼𝒔
 
+## commands
+```MH
+There is only one command of this BoT
+start - this BoT is alive or NoT
+```
+
 # 𝑴𝒖𝒕𝒚𝒂𝒍𝒂 𝑯𝒂𝒓𝒔𝒉𝒊𝒕𝒉
 
 <p align="middle">
@@ -39,6 +45,5 @@
     <img alt="Facebook" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/facebook.svg" />
   </a>
 
-## Deploy
-
-## [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+## Deploy To Heroku 
+[![20220411_065237](https://user-images.githubusercontent.com/91818980/162686070-c0064258-1f97-4ddd-b3f4-87f7524cdaf0.png)](https://heroku.com/deploy)
