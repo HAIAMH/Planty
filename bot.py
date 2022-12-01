@@ -18,7 +18,7 @@ bot_token= os.environ.get("bot_token")                   #Your bot token
 @run_async
 def start(update,context):
 	name=update.message.chat.first_name
-	update.message.reply_text("Hi! "+name+"\nWelcome to Plant Identifier Bot, Send a clear image of a plant and i will try to recognise the plant in it From @Harshith_Mutyala")
+	update.message.reply_text("Hi! "+name+"\nWelcome to Plant Identifier Bot, Send a clear image of a plant and i will try to recognise the plant in it From @MutyalaHarshith")
     
 keyboard=[[InlineKeyboardButton("➕Add Image ➕", callback_data="add"), InlineKeyboardButton ("🔍 Identify 🔍",callback_data="process")]]
 reply_markup = InlineKeyboardMarkup(keyboard)
@@ -73,8 +73,8 @@ def button(update,context):
                     a=wikipedia.page(name)
                     url=a.url
                 except Exception:
-                    url="<i>Not Found</i>"
-                message=f"<b>Plant Name : </b>{name}\n\n<b>Probability : </b>{probability*100}\n\n<b>Scientific name : </b>{scientific_name}\n\n<b>Common Names : </b>{common}\n\n<b>Wikipedia Page : </b>{url}"
+                    url="<i>Not Found Sorry 😔 Dude</i>"
+                message=f"Mutyala Harshith \n\n<b>Plant Name : </b>{name}\n\n<b>Probability : </b>{probability*100}\n\n<b>Scientific name : </b>{scientific_name}\n\n<b>Common Names : </b>{common}\n\n<b>Wikipedia Page : </b>{url}"
                 query.edit_message_text(message,parse_mode=telegram.ParseMode.HTML)
                 fileid.clear()
                 images.clear()
