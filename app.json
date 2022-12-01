@@ -1,13 +1,13 @@
 {
-    "name": "Mokkala Anveshana",
+    "name": "Planty",
     "description": "Telegram bot for identifying plant",
     "author": "Harshith",
     "keywords": [
         "python",
-        "mokkala_anveshana",
+        "harshith",
         "plants"
     ],
-    "repository": "https://github.com/MutyalaHarshith/Mokkala-Anveshana",
+    "repository": "https://github.com/HAIAMH/Planty",
     "env":{
         "bot_token":{
             "description":"Telegram bot token",
